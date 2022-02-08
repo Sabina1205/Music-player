@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Abel;
+}
+
+body {
+    background: #F0F0F3;
+}
+.container {
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    box-shadow: inset -10px -10px 10px #ffffff70,
+    inset 10px 10px 10px #aeaec020;
+    border-radius: 50px;
+}
+
+.container {
+    display: grid;
+}
+
+.music-container {
+    margin-top: 25px;
+    color: #444;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+button {
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 2px;
+    background: #F0F0F3;
+    color: #444;
+    margin: 10px;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    box-shadow:
+    -15px -15px 30px #fff,
+    15px 15px 30px #aeaec040;
+}
+
+
+button:hover{
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+    -2px -2px 6px 0 rgba(116, 125, 136, .2), 
+    inset -2px -2px 6px 0 rgba(255,255,255,.5),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);  
+}
+
