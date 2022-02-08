@@ -99,4 +99,4 @@ audio.addEventListener('ended', () => {
     loadSong(songs[songIndex]);
 
     playSong();
-})
+});
